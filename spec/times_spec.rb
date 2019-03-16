@@ -1,11 +1,11 @@
 require_relative "spec_helper"
 require_relative "../times.rb"
 
-using_times
+def using_times
   7.times do
     puts "Wingardium Leviosa\n"
   end
-
+end
 
 describe "#using_times" do 
 	it "puts out the phrase 'Wingardium Leviosa' 7 times by using the `times` construct" do
