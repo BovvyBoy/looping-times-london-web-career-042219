@@ -2,7 +2,7 @@ require_relative "spec_helper"
 require_relative "../times.rb"
 
 def using_times
-  puts looping_string
+  
 end
 
 describe "#using_times" do 
