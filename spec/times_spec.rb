@@ -3,6 +3,7 @@ require_relative "../times.rb"
 
 10.times do
   puts "Wingardium Leviosa"
+end
 
 describe "#using_times" do 
 	it "puts out the phrase 'Wingardium Leviosa' 7 times by using the `times` construct" do
