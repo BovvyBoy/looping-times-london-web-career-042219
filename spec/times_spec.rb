@@ -1,7 +1,7 @@
 require_relative "spec_helper"
 require_relative "../times.rb"
 
-10.times do
+7.times do
   puts "Wingardium Leviosa"
 end
 
